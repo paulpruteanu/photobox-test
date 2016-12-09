@@ -2,10 +2,9 @@ var webpack = require('webpack');
 var path = require('path');
 
 module.exports = {
-    devtool: 'eval',//"inline-source-map",
+    devtool: 'eval',
     entry: [
-        /*'webpack-dev-server/client?http://127.0.0.1:8080/',
-        'webpack/hot/only-dev-server',*/
+	'whatwg-fetch',
         './src'
     ],
     output: {
@@ -26,8 +25,6 @@ module.exports = {
         ]
     },
     plugins: [
-        /*new webpack.HotModuleReplacementPlugin(),
-        new webpack.NoErrorsPlugin(),*/
         new webpack.DefinePlugin({
             'process.env': {
                 NODE_ENV: JSON.stringify('production')
