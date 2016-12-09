@@ -47,3 +47,7 @@ for testing, run ```npm test```
 
 On both environments, you can use ```npm run start:dev``` and ```npm run test:watch```, which basically
 watches for changes and refreshes the endpoint/ web-page/ tests.
+
+### Demo
+
+A online demo resource is available [here](http://pruteanu.uk:8080).
