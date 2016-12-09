@@ -39,9 +39,7 @@ variables when building the package (ie. docker image).
 
 ### Client installation
 
-```cd client``` then run ```npm install``` and ```npm start```.
-
-for testing, run ```npm test```
+```cd client``` then run ```npm install``` and ```npm start```. for testing, run ```npm test```
 
 ### Development
 
